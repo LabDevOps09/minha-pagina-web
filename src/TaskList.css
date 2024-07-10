@@ -1,0 +1,28 @@
+.task-list {
+  max-height: 300px;
+  overflow-x: auto; /* Adicionando overflow-x para a barra de rolagem lateral */
+  overflow-y: scroll; /* Garantindo overflow-y para a barra de rolagem vertical */
+}
+
+.task-list ul {
+  padding: 0;
+}
+
+.task-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 0;
+}
+
+.task-list a {
+  color: #080808;
+  text-decoration: none;
+}
+
+.task-list button {
+  margin-left: 10px;
+}
+
+
+
